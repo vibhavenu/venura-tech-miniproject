@@ -24,10 +24,6 @@ fill_mask = pipeline(
     tokenizer=tokenizer
 )
 st.title("AI Autocorrect and Suggestion Tool")
-
-st.write(
-    "Built using Autocorrect, TextBlob, and BERT"
-)
 option = st.radio(
     "Choose Function",
     (
